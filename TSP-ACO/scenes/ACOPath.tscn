@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="StreamTexture" id=1]
+flags = 4
+load_path = "res://.import/path1.png-660e835d57ed90034938b19160083b0d.stex"
+
+[node name="ACOPath" type="TextureRect"]
+margin_right = 110.0
+margin_bottom = 110.0
+texture = SubResource( 1 )
+expand = true
+stretch_mode = 2

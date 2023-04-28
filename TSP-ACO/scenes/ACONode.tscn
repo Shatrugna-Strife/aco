@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="StreamTexture" id=1]
+flags = 4
+load_path = "res://.import/node1.png-14161e9a45f4018548ea772fff711dfc.stex"
+
+[node name="ACONode" type="Sprite"]
+scale = Vector2( 0.5, 0.5 )
+texture = SubResource( 1 )
